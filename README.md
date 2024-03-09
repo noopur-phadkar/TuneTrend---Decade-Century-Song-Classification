@@ -12,26 +12,11 @@ The Song Decade and Century Classifier is a machine-learning project designed to
 
 - **Evaluation and Metrics**: The trained models are evaluated using various metrics such as accuracy, precision, recall, and F1 score. Evaluation results are provided to assess the performance of the classification models.
 
-## Usage
+## Steps
 1. **Data Collection**: Run the data collection script to gather song data from the desired source. Customize the script to specify criteria such as genre, artist, or release year.
-   ```
-   python collect_data.py
-   ```
-
 2. **Preprocessing and Feature Extraction**: Preprocess the collected data and extract features using the preprocessing script.
-   ```
-   python preprocess_data.py
-   ```
-
 3. **Model Training**: Train the classification model using the training script. Choose the desired classification task (decades or centuries) and the machine learning algorithm.
-   ```
-   python train_model.py --task decades --algorithm RandomForest
-   ```
-
 4. **Model Evaluation**: Evaluate the trained model and view accuracy metrics.
-   ```
-   python evaluate_model.py
-   ```
-   
+
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
